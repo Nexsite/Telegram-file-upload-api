@@ -17,7 +17,7 @@ This is a step-by-step guide to creating a **Telegram File Uploader** web app th
 - [Running the App Locally](#running-the-app-locally)
 - [Deploying the App](#deploying-the-app)
 - [Security Considerations](#security-considerations)
-- [Conclusion](#conclusion)
+
 
 ---
 
