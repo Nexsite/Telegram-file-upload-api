@@ -151,5 +151,6 @@ https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
 
 ## Telegram API Tester
 
-- You can test the api using the telegram api tester tool [Here](https://nexsite.github.io/Telegram-file-upload-api/test/)
+- You can test the api using the telegram api tester tool [Here](https://nexsite.github.io/telegram-api-tester/test/)
+<br>
 ![tool](./test/test.png)
