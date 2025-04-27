@@ -1,61 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Upload File to Telegram</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background-color: #f4f4f4;
-    }
-    h1 {
-      text-align: center;
-    }
-    .container {
-      width: 100%;
-      max-width: 600px;
-      margin: 0 auto;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    input[type="file"] {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-    }
-    button {
-      width: 100%;
-      padding: 10px;
-      background-color: #28a745;
-      border: none;
-      color: white;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-    button:hover {
-      background-color: #218838;
-    }
-    .status {
-      margin-top: 10px;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telegram API</title>
+  </head>
 
-  <div class="container">
-    <h1>Upload File to Telegram Group</h1>
-    <input type="file" id="fileInput" />
-    <button onclick="sendFile()">Send to Telegram</button>
-    <p id="status" class="status"></p>
-  </div>
+  <body>
+    <div class="container">
+      <h1>Contact form with Telegram API</h1>
+      <p>Send a doc or message to your group thorugh browser using the telegram api</p>
+  <!-- Caption for the file (Optional) -->
+  <input
+  type="text"
+  id="captionInput"
+  placeholder="Enter optional caption..."
+/>
 
-  <script src="app.js"></script>
-</body>
+<!-- File Upload -->
+
+<div class="group">
+  <input type="file" id="fileInput" />
+  <button onclick="clearFile()">
+    <img src="../src/trash.svg" alt="" />
+  </button>
+</div>
+
+<!-- Submit Button -->
+<button class="btn" onclick="sendFile()">Send to Telegram</button>
+
+<!-- Status message -->
+<p id="status" class="status"></p>
+      
+      </div>
+  
+
+ 
+
+    <script src="index.js"></script>
+  </body>
 </html>
