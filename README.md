@@ -16,13 +16,13 @@ A simple browser-based tool to test sending files and messages using your own Te
 
 ## 📁 Files Included
 
-- `telegram_api_tester.html` – Main file, open it in any browser to start testing.
+- `test/index.html` – Main file, open it in any browser to start testing.
 
 ---
 
 ## 🔧 How to Use
 
-1. Open `telegram_api_tester.html` in your browser.
+1. Open `test/index.html` in your browser.
 2. Fill in the following:
    - **Bot Token** (from [@BotFather](https://t.me/BotFather))
    - **Chat ID** (your user ID or a group ID)
